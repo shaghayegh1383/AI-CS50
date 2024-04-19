@@ -2,7 +2,7 @@
 print ("Hello world")
 
 name = "John" #string
-age = 30  #int
+age = 30  #integer
 height = 5.9 #float
 is_adult = True #bool
 print ( name , age , height , is_adult )
