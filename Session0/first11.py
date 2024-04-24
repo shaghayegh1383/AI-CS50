@@ -1,7 +1,7 @@
 thisCar = {
     'brand' : 'ford',
     'year' : 1975,
-    'colors' : ['red' , 'black' , 'blue']  ,
+    'colors' : ["red" , "black" , "blue"]  ,
     'electric': False
     
     }
