@@ -3,9 +3,9 @@ from logic import *
 people = ["Gilderoy", "Pomona", "Minerva", "Horace"]
 houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 
-symbols = []
 
-knowledge = And()
+
+symbols = [] ;  knowledge = And()
 
 for person in people:
     for house in houses:
@@ -53,3 +53,4 @@ print (knowledge.formula())
 for symbol in symbols:
     if model_check(knowledge, symbol):
         print(symbol)
+        
