@@ -44,6 +44,7 @@ knowledge.add(Or(
     And(Symbol("green2"), Symbol("yellow3"), Not(Symbol("red0")), Not(Symbol("blue1")))
 ))
 
+
 knowledge.add(And(
     Not(Symbol("blue0")),
     Not(Symbol("red1")),
