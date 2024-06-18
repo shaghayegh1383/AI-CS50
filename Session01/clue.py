@@ -40,6 +40,7 @@ knowledge.add(And(
     Not(mustard), Not(kitchen), Not(revolver)
 ))
 
+
 # Unknown card
 knowledge.add(Or(
     Not(scarlet), Not(library), Not(wrench)
